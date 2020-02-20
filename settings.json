@@ -17,6 +17,7 @@
     "**/README.md*": true,
     "**/META-INF": true,
     "**/.theia**": true,
-    "maven.autoDetect": "off"
+    "**/.gitignore": true,
+    "**/settings.json": true
   }
 }
