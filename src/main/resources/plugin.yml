@@ -1,0 +1,15 @@
+name: XU Demo Simple Command
+version: 1
+description: Demo
+author: XU
+website: xu-university.de
+
+main: com.xu.example.simpleCommand.SpigotPlugin
+
+commands:
+    beispiel:
+        description: Ein Beispiel-Befehl
+        permission: spigotplugin.example
+        usage: /<command>
+
+permissions: {}
