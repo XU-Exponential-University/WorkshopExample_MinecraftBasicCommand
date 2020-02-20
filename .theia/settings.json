@@ -1,0 +1,22 @@
+{
+  "workbench.iconTheme": "theia-file-icons",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/hidden_file.txt": true,
+    "**/target/classes": true,
+    "**/target/generated-sources": true,
+    "**/target/maven*": true,
+    "**/README.md*": true,
+    "**/META-INF": true,
+    "**/.theia**": true,
+    "maven.autoDetect": "off"
+  }
+}

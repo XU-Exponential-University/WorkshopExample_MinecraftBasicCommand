@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "type": "che",
+      "label": "maven build",
+      "command": "mvn clean install",
+      "target": {
+        "workingDir": "${CHE_PROJECTS_ROOT}/DeinPlugin",
+        "component": "maven"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
