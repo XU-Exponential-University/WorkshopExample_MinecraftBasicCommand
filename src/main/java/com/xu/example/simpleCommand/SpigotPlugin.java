@@ -18,6 +18,7 @@ public class SpigotPlugin extends JavaPlugin {
 
         // Hier teilen wir den Server mit das es ab jetzt auf einen neuen Command reagieren soll. So kann dieser zum Beispiel von der automatischen Vervollständigung erkannt werden.
         getCommand("beispiel").setExecutor(new BeispielCommand(this));
+        getCommand("boom").setExecutor(new ExplosionCommand(this));
 
     }
 
