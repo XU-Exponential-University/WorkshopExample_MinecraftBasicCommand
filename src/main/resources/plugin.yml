@@ -9,7 +9,11 @@ main: com.xu.example.simpleCommand.SpigotPlugin
 commands:
     beispiel:
         description: Ein Beispiel-Befehl
-        permission: spigotplugin.example
+        permission: spigotplugin.beispiel
         usage: /<command>
+    boom:
+        description: Das Ziel explodiert
+        permission: spigotplugin.explode
+        usage: /<command> [Player]
 
 permissions: {}
